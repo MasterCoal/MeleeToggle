@@ -1,0 +1,16 @@
+name: MeleeToggle
+version: ${project.version}
+main: walmartmc.net.meleetoggle.MeleeToggle
+api-version: 1.16
+authors: [ MasterCoal ]
+description: A Melee Toggle Plugin made for Lucius created by Coal
+website: store.walmartmc.net
+commands:
+  togglemelee:
+    aliases: tm
+    permission: walmartmc.melee
+    permission-message: Unknown command. Type "/help" for help.
+
+permissions:
+  walmartmc.melee:
+    default: op
